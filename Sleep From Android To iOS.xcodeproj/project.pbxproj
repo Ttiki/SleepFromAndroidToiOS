@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B3522EBD368B2B4EBBFCD39 /* Pods_Sleep_From_Android_To_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4606E376556F2061F8E3756C /* Pods_Sleep_From_Android_To_iOS.framework */; };
+		F572DB3629AA596400D0FCEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F572DB3529AA596300D0FCEF /* AppDelegate.swift */; };
+		F572DB3829AA596400D0FCEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F572DB3729AA596400D0FCEF /* SceneDelegate.swift */; };
+		F572DB3A29AA596400D0FCEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F572DB3929AA596400D0FCEF /* ViewController.swift */; };
+		F572DB3D29AA596400D0FCEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F572DB3B29AA596400D0FCEF /* Main.storyboard */; };
+		F572DB3F29AA596400D0FCEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F572DB3E29AA596400D0FCEF /* Assets.xcassets */; };
+		F572DB4229AA596400D0FCEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F572DB4029AA596400D0FCEF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		005C56AE708A00A1490649E8 /* Pods-Sleep From Android To iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sleep From Android To iOS.debug.xcconfig"; path = "Target Support Files/Pods-Sleep From Android To iOS/Pods-Sleep From Android To iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4606E376556F2061F8E3756C /* Pods_Sleep_From_Android_To_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sleep_From_Android_To_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8514D4A8FC732AD66CE23E92 /* Pods-Sleep From Android To iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sleep From Android To iOS.release.xcconfig"; path = "Target Support Files/Pods-Sleep From Android To iOS/Pods-Sleep From Android To iOS.release.xcconfig"; sourceTree = "<group>"; };
+		F572DB3229AA596300D0FCEF /* Sleep From Android To iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sleep From Android To iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F572DB3529AA596300D0FCEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F572DB3729AA596400D0FCEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F572DB3929AA596400D0FCEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F572DB3C29AA596400D0FCEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F572DB3E29AA596400D0FCEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F572DB4129AA596400D0FCEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F572DB4329AA596400D0FCEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F572DB4A29AA5C6F00D0FCEF /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F572DB2F29AA596300D0FCEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B3522EBD368B2B4EBBFCD39 /* Pods_Sleep_From_Android_To_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C385DAAD666FA2734466B326 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				005C56AE708A00A1490649E8 /* Pods-Sleep From Android To iOS.debug.xcconfig */,
+				8514D4A8FC732AD66CE23E92 /* Pods-Sleep From Android To iOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F572DB2929AA596300D0FCEF = {
+			isa = PBXGroup;
+			children = (
+				F572DB3429AA596300D0FCEF /* Sleep From Android To iOS */,
+				F572DB3329AA596300D0FCEF /* Products */,
+				F572DB4929AA5C6E00D0FCEF /* Frameworks */,
+				C385DAAD666FA2734466B326 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F572DB3329AA596300D0FCEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F572DB3229AA596300D0FCEF /* Sleep From Android To iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F572DB3429AA596300D0FCEF /* Sleep From Android To iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F572DB3529AA596300D0FCEF /* AppDelegate.swift */,
+				F572DB3729AA596400D0FCEF /* SceneDelegate.swift */,
+				F572DB3929AA596400D0FCEF /* ViewController.swift */,
+				F572DB3B29AA596400D0FCEF /* Main.storyboard */,
+				F572DB3E29AA596400D0FCEF /* Assets.xcassets */,
+				F572DB4029AA596400D0FCEF /* LaunchScreen.storyboard */,
+				F572DB4329AA596400D0FCEF /* Info.plist */,
+			);
+			path = "Sleep From Android To iOS";
+			sourceTree = "<group>";
+		};
+		F572DB4929AA5C6E00D0FCEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F572DB4A29AA5C6F00D0FCEF /* HealthKit.framework */,
+				4606E376556F2061F8E3756C /* Pods_Sleep_From_Android_To_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F572DB3129AA596300D0FCEF /* Sleep From Android To iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F572DB4629AA596400D0FCEF /* Build configuration list for PBXNativeTarget "Sleep From Android To iOS" */;
+			buildPhases = (
+				9858E6A073AD2B245AE85C62 /* [CP] Check Pods Manifest.lock */,
+				F572DB2E29AA596300D0FCEF /* Sources */,
+				F572DB2F29AA596300D0FCEF /* Frameworks */,
+				F572DB3029AA596300D0FCEF /* Resources */,
+				13029202A222CEDC4BFE33C6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sleep From Android To iOS";
+			productName = "Sleep From Android To iOS";
+			productReference = F572DB3229AA596300D0FCEF /* Sleep From Android To iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F572DB2A29AA596300D0FCEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F572DB3129AA596300D0FCEF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F572DB2D29AA596300D0FCEF /* Build configuration list for PBXProject "Sleep From Android To iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F572DB2929AA596300D0FCEF;
+			productRefGroup = F572DB3329AA596300D0FCEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F572DB3129AA596300D0FCEF /* Sleep From Android To iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F572DB3029AA596300D0FCEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F572DB4229AA596400D0FCEF /* LaunchScreen.storyboard in Resources */,
+				F572DB3F29AA596400D0FCEF /* Assets.xcassets in Resources */,
+				F572DB3D29AA596400D0FCEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13029202A222CEDC4BFE33C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sleep From Android To iOS/Pods-Sleep From Android To iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sleep From Android To iOS/Pods-Sleep From Android To iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sleep From Android To iOS/Pods-Sleep From Android To iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9858E6A073AD2B245AE85C62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sleep From Android To iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F572DB2E29AA596300D0FCEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F572DB3A29AA596400D0FCEF /* ViewController.swift in Sources */,
+				F572DB3629AA596400D0FCEF /* AppDelegate.swift in Sources */,
+				F572DB3829AA596400D0FCEF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F572DB3B29AA596400D0FCEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F572DB3C29AA596400D0FCEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F572DB4029AA596400D0FCEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F572DB4129AA596400D0FCEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F572DB4429AA596400D0FCEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F572DB4529AA596400D0FCEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F572DB4729AA596400D0FCEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 005C56AE708A00A1490649E8 /* Pods-Sleep From Android To iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sleep From Android To iOS/Sleep From Android To iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U5D7JR643Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sleep From Android To iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clement-combier.Sleep-From-Android-To-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F572DB4829AA596400D0FCEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8514D4A8FC732AD66CE23E92 /* Pods-Sleep From Android To iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sleep From Android To iOS/Sleep From Android To iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U5D7JR643Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sleep From Android To iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clement-combier.Sleep-From-Android-To-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F572DB2D29AA596300D0FCEF /* Build configuration list for PBXProject "Sleep From Android To iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F572DB4429AA596400D0FCEF /* Debug */,
+				F572DB4529AA596400D0FCEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F572DB4629AA596400D0FCEF /* Build configuration list for PBXNativeTarget "Sleep From Android To iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F572DB4729AA596400D0FCEF /* Debug */,
+				F572DB4829AA596400D0FCEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F572DB2A29AA596300D0FCEF /* Project object */;
+}
